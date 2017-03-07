@@ -40,7 +40,6 @@ function Encode(input){
     output = output.substring(0,output.length-1);
 
     var out = [output,key];
-    console.log("Encode: "+ out[0] + " - " + out[1]);
     return out;
 }
 
@@ -57,11 +56,9 @@ function Decode(input,key){
         charvalout -= keyval[2];
         charvalout -= keyval[1];
         charvalout -= keyval[0];
-        console.log("Test: " + "(((" + charvalin[i] + "+" + keyval[3] + ")" + "-" + keyval[2] + ")" + "+" + keyval[1] + ")" + "-" + keyval[0] + ") = " + charvalout);
 
         output += String.fromCharCode(charvalout);
     }
-
-    console.log("Decode: " + output);
+    
     return output;
 }
