@@ -1,5 +1,5 @@
 //Created by Luc Vergnes
-//AscKey encode 1.0
+//AscKey encode 6.0.3
 
 function Encode(input){
 
