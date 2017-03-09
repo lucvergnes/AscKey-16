@@ -1,7 +1,7 @@
 //   ###   AscKey encode 2.2.0   ###
 
 //Created by Luc Vergnes
-//Fin this project on Github: https://github.com/lucvergnes/AscKey-16-text-obfuscator.git
+//Find this project on Github: https://github.com/lucvergnes/AscKey-16-text-obfuscator.git
 
 
 //Encrypting function.
